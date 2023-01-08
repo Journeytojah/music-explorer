@@ -7,7 +7,7 @@
 	async function sendPrompt(prompt) {
 		const configuration = new Configuration({
 			organization: 'org-urcDSTtd23SI1a1QYO4uQUSC',
-			apiKey: import.meta.env.VITE_OPENAI_API_KEY
+			apiKey: process.env.VITE_OPENAI_API_KEY
 		});
 		const openai = new OpenAIApi(configuration);
 		try {
