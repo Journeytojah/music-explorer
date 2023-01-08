@@ -8,7 +8,7 @@
 		const configuration = new Configuration({
 			organization: 'org-urcDSTtd23SI1a1QYO4uQUSC',
 			// apiKey: import.meta.env.VITE_OPENAI_API_KEY
-			apiKey: process.env.OPENAI_API_KEY
+			apiKey: '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'
 		});
 		const openai = new OpenAIApi(configuration);
 		try {
