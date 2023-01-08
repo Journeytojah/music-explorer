@@ -31,9 +31,9 @@
 					final.pop(n[x]);
 				}
 			}
-			console.log(completion);
+			// console.log(completion);
 		} catch (err) {
-			//
+			// TODO: handle errors
 			console.log(err);
 		}
 	}
